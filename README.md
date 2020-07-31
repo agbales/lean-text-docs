@@ -1,4 +1,4 @@
-## lean-text demo
+## lean-text docs & demos
 
 A React solution for 3D text built with styled components.
 
