@@ -215,7 +215,7 @@ function App() {
           </pre>
         </div>
 
-        <div class="column" style={{ position: 'fixed', top: '0', right: '0' }}>
+        <div class="column" className="package-info">
           <img
             src="https://www.how-to-draw-funny-cartoons.com/image-files/two-point-perspective-6.gif"
             style={{ maxWidth: '500px', margin: '0 auto' }}
