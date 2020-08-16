@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { LeanWrapper, Lean } from './Lean';
+import { LeanWrapper, Lean } from 'lean-text';
 import styled from 'styled-components';
 
 const ColorSection = styled.section`
