@@ -23,7 +23,19 @@ function App() {
     <div className="App">
       <div class="row">
         <div class="column">
-          <h1>Lean Text</h1>
+          <div style={{ display: 'flex' }}>
+            <LeanWrapper>
+              <Lean rotateY={50} rotateX={10} fontSize={50}>
+                L E A N
+              </Lean>
+            </LeanWrapper>
+            <LeanWrapper>
+              <Lean rotateY={-50} rotateX={10} fontSize={50}>
+                T E X T
+              </Lean>
+            </LeanWrapper>
+          </div>
+
           <p>A React solution for 3D text built with styled components.</p>
           <pre>
             <code>{`import { LeanWrapper, Lean } from 'lean-text';`}</code>
